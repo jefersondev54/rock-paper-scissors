@@ -36,3 +36,9 @@ h2{
 h1{
     text-align: center;
 }
+#BResults{
+    color: red;
+}
+#PResults{
+    color:rgb(0, 255, 0);
+}
