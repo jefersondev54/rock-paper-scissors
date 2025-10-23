@@ -1,0 +1,38 @@
+img{
+    height: 100px;
+    width: 100px;
+    border: 2px solid;
+    transition: ease-in, width 1s, height 1s;
+}
+#Brock, #Bpaper, #Bscissors {
+  width: 150px;
+  height: 150px;
+  transition: all 0.2s ease;
+}
+
+img:hover{
+    width: 150px;
+    height: 150px;
+}
+#container{
+    display:grid;
+
+}
+.options{
+    text-align: center;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+    gap: 10px;
+}
+h3{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
